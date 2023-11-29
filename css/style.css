@@ -17,7 +17,17 @@ body {
 
 .container {
   display: grid;
+  /*Sets the grid template rows for the layout.
+  The first row has a height of 80vh (viewport height).
+  The second row has a minimum content height to fit its content
+  The third row has a height of 40vw (viewport width).
+  The remaining three rows have a minimum content height to fit their content.*/
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  /*This code defines the grid-template-columns property for a layout.
+  It sets the column sizes and positions for different sections of the grid.
+  The sidebar section has a fixed width of 8rem.
+  The center section has 8 columns, each with a minimum width of min-content and a maximum width of 14rem.
+  The remaining sections have a minimum width of 6rem and a maximum width of 1fr.*/
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
   .container > * {
     padding: 40px;

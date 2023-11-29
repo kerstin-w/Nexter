@@ -1,11 +1,13 @@
 .story {
   &__pictures {
     background-color: $color-primary;
+    // Sets the grid column property to span from the first column line to the fourth column line.
     grid-column: full-start / col-end 4;
   }
 
   &__content {
     background-color: $color-grey-light-1;
+    // Sets the grid column to start at the 5th column and span until the end of the grid.
     grid-column: col-start 5 / full-end;
   }
 }

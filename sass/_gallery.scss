@@ -1,4 +1,6 @@
 .gallery {
   background-color: $color-grey-dark-1;
+  // Sets the grid column to span from the first column line to the last column line,
+  // effectively occupying the entire grid.
   grid-column: full-start / full-end;
 }

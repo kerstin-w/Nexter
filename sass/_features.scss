@@ -1,4 +1,6 @@
 .features {
   background-color: $color-grey-light-2;
+  // Sets the grid column to be centered within the grid container.
+  // The column starts at the center-start line and ends at the center-end line.
   grid-column: center-start / center-end;
 }

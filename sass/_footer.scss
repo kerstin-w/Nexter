@@ -1,4 +1,6 @@
 .footer {
   background-color: $color-secondary;
+  // Sets the grid column to span from the first column line to the last column line,
+  // effectively occupying the entire grid area.
   grid-column: full-start / full-end;
 }

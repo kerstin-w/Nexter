@@ -1,4 +1,5 @@
 .header {
   background-color: $color-grey-dark-1;
+  // Sets the grid column for the header element to span from the first column to the 6th column.
   grid-column: full-start / col-end 6;
 }
